@@ -1,0 +1,32 @@
+Simulation parameters
+---------------------
+Input filename: /home/jesus/Develop/uav_ns/auav/src/scenarios/180614-202806/180614-202811_main.wml
+Output filename: /home/jesus/Develop/uav_ns/auav/src/outputs/180614-202831/pso/180614-202831_tl/180614-202831_param
+
+Scenario size (m): [5000, 5000]
+Number of clusters: 6
+	Cluster_1: origin [200.0, 200.0]; dimension [1000.0, 700.0]
+	Cluster_2: origin [2000.0, 400.0]; dimension [700.0, 500.0]
+	Cluster_3: origin [2500.0, 2500.0]; dimension [500.0, 1000.0]
+	Cluster_4: origin [50.0, 1500.0]; dimension [500.0, 1000.0]
+	Cluster_5: origin [300.0, 3500.0]; dimension [800.0, 1000.0]
+	Cluster_6: origin [1500.0, 4000.0]; dimension [1500.0, 900.0]
+Number of nodes: 200
+Duration (s): 1633
+
+Number of Drones: 6
+Drones coverage (m): 250
+Drones maximum speed (m/s): 15
+Drones initial distribution: corner_top_left
+
+Algorithm: pso
+parameters:
+	inertia weight (start value,final value): (1,)
+	local best weight (start value,final value): (0, 0.2)
+	global best weight (start value,final value): (0, 0.6)
+	local best start time (s): 456
+	local best top time (s): 466
+	neighbors best start time (s): 912
+	neighbors best final time (s): 922
+
+Simulation time (s): 73.371655941

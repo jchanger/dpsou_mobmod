@@ -1,0 +1,73 @@
+PSO values:
+inertia final val: 0.2
+local best final val: 0.2
+global best final val: 0.6
+inertia only time: [0,123]
+lb time: [123,246]
+nb time: [246,370]
+
+Discovered nodes per time (accumulated) [avg]
+	% discovered (avg): 100.00 %
+	Total discovered (avg): 160.0
+	dev: 0.00
+Discovered nodes per time [avg]
+	inertia max (x,y): (37.0,  89.0)
+	lb max (x,y): (192.0,  17.0)
+	nb max (x,y): (305.0,  20.5)
+	Mean of discovered per time: 21.4
+Number of nodes connection to UAVs
+	Freq in x=0: 14
+	Max connections events (x axis): 106
+	Max val (x,y): 0.00, 14.00
+	Second max val (x,y): 33.00, 14.00
+	Mean of connections bars: 0.9
+Time between consecutive nodes connections to UAVs
+	Freq in x=1: 11697
+	Freq in x=duration: 14
+	Second max time btw conn (x axis): 313
+	Max val (x,y): 1.00, 11697.00
+	Second max val (x,y): 2.00, 16.00
+	Mean of time btw conn bars: 32.2
+Drones' final positions [all iterations]
+	Within cluster: 2
+	Within cluster (%): 16.67
+	Out of cluster: 10
+	Out of cluster (%): 83.33
+Time up to discovery [avg]
+	25%: 24.0   dev: 1.0
+	50%: 47.0   dev: 3.0
+	75%: 132.0   dev: 8.0
+	100%: 286.5   dev: 0.5
+	Mean of q-bars: 122.4
+Drone encounters per time [avg]
+	inertia max (x,y): (5.0,  14.5)
+	lb max (x,y): (245.0,  0.0)
+	nb max (x,y): (369.0,  0.0)
+	Total encounters (avg): 396.5
+	dev : 45.50
+	Mean of encounters: 1.1
+Number of drone subgraphs
+	Max val: 6.0   Freq: 2.0
+	Second max: 6.0   Freq: 2.0
+	Total number of drone subgraphs (avg): 6.0
+	dev : 0.0
+	Mean of dr-subgraph bars: 0.3
+Number of drone per subgraphs
+	Max val: 1.0   Freq: 12.0
+	Second max: 1.0   Freq: 12.0
+	Total number of drones per subgraph (avg): 1.0
+	dev : 0.0
+	Mean of drones per subgraph bars: 1.7
+Drones per cluster [avg]
+cluster1: 0.0   dev: 0.0
+	Total clusters: 2
+	Mean of drones per cluster: 0.5
+Convergence time in a cluster [avg]
+	dr0: 369.0   dev: 0.0
+	dr1: 369.0   dev: 0.0
+	dr2: 369.0   dev: 0.0
+	dr3: 360.5   dev: 6.5
+	dr4: 369.0   dev: 0.0
+	dr5: 369.0   dev: 0.0
+	Mean of dr-convergence bars: 367.6
+	dev: 4.13

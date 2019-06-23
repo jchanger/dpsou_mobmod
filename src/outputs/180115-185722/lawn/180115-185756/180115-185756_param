@@ -1,0 +1,25 @@
+Simulation parameters
+---------------------
+Input filename: ./scenarios/180115-185703/180115-185707_main.wml
+Output filename: ./outputs/180115-185722/lawn/180115-185756/180115-185756_param
+
+Scenario size (m): [5000, 5000]
+Number of clusters: 3
+	Cluster_1: origin [200, 200]; dimension [500, 4000]
+	Cluster_2: origin [3000, 200]; dimension [500, 500]
+	Cluster_3: origin [2500, 2500]; dimension [500, 1000]
+Number of nodes: 200
+Duration (s): 350
+
+Number of Drones: 6
+Drones coverage (m): 250
+Drones maximum speed (m/s): 15
+Drones initial distribution: corner_bottom_left
+
+Algorithm: lawn_mower
+parameters:
+	inter-drone distance (m): 250
+	distance to scenario edge (m): 240
+	inter-region time (s): 99
+
+Simulation time (s): 8.20747613907

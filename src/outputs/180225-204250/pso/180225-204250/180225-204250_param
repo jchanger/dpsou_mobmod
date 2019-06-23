@@ -1,0 +1,29 @@
+Simulation parameters
+---------------------
+Input filename: ./scenarios/180225-204230/180225-204235_main.wml
+Output filename: ./outputs/180225-204250/pso/180225-204250/180225-204250_param
+
+Scenario size (m): [5000, 5000]
+Number of clusters: 3
+	Cluster_1: origin [200, 200]; dimension [500, 4000]
+	Cluster_2: origin [3000, 200]; dimension [500, 500]
+	Cluster_3: origin [2500, 2500]; dimension [500, 1000]
+Number of nodes: 200
+Duration (s): 1370
+
+Number of Drones: 6
+Drones coverage (m): 250
+Drones maximum speed (m/s): 15
+Drones initial distribution: corner_bottom_left
+
+Algorithm: pso
+parameters:
+	inertia weight (start value,final value): (1,)
+	local best weight (start value,final value): (0, 0.2)
+	global best weight (start value,final value): (0, 0.6)
+	local best start time (s): 456
+	local best top time (s): 466
+	neighbors best start time (s): 912
+	neighbors best final time (s): 922
+
+Simulation time (s): 14.4484651089

@@ -1,0 +1,775 @@
+2018-06-14 20:28:06,427 - __main__ - INFO - Calling launcher_four:
+2018-06-14 20:28:06,427 - __main__ - INFO - {'lawn': 0, 'pso': 1, 'lawn_iter': 1, 'first_drones_pos': ['corner_top_left', 'corner_top_right'], 'pso_iter': 2, 'exception': 0}
+2018-06-14 20:28:06,427 - launchers.launcher_four - INFO - Calculating the duration of the simulation from lawn_mower algo
+2018-06-14 20:28:06,483 - launchers.launcher_four - INFO - Duration: 1633
+2018-06-14 20:28:06,483 - launchers.launcher_four - INFO - Using socket to get the scenario_builder generating the scenario
+2018-06-14 20:28:06,483 - client_socket - INFO - Connecting to localhost port 10000
+2018-06-14 20:28:31,036 - client_socket - INFO - Closing socket to localhost port 10000
+2018-06-14 20:28:31,048 - launchers.launcher_four - INFO - Moving the new scenario to /scenarios folder
+2018-06-14 20:28:31,118 - launchers.launcher_four - INFO - Finding the main .wml file
+2018-06-14 20:28:31,124 - launchers.launcher_four - INFO - Saving scenario path in settings file
+2018-06-14 20:28:31,124 - launchers.launcher_four - INFO - Creating output folder
+2018-06-14 20:28:31,142 - launchers.launcher_four - INFO - pso algorithm: iteration 0
+	 initial drones positions: _tl
+2018-06-14 20:28:31,142 - launchers.launcher_four - INFO - Calling sim_core
+2018-06-14 20:28:31,143 - sim_core - INFO - Checking input values
+2018-06-14 20:28:31,143 - sim_core - INFO - Creating simulation files
+2018-06-14 20:28:31,143 - functions.output - INFO - Simulation parameters:
+	 Input filename: /home/jesus/Develop/uav_ns/auav/src/scenarios/180614-202806/180614-202811_main.wml
+	 Number of nodes: 200
+	 Duration (seconds): 1633
+	 Number of Drones: 6
+	 Drones max_speed: 15
+	 Initial distribution: corner_top_left
+	 Area dimension: [5000, 5000]
+	 Algorithm: pso
+	 Current iteration: 0
+2018-06-14 20:28:31,144 - sim_core - INFO - Creating simulation objects: drones, nodes and sim_network
+2018-06-14 20:28:31,144 - functions.initialize - INFO - Loading scenario...
+2018-06-14 20:28:35,760 - functions.initialize - INFO - Scenario loaded
+2018-06-14 20:28:35,768 - sim_core - INFO - Starting simulation main loop
+2018-06-14 20:28:35,768 - sim_core - INFO - Current time = 0; Progress = 0% 
+2018-06-14 20:28:35,798 - sim_core - INFO - Current time = 10; Progress = 0% 
+2018-06-14 20:28:35,817 - sim_core - INFO - Current time = 20; Progress = 1% 
+2018-06-14 20:28:35,840 - sim_core - INFO - Current time = 30; Progress = 1% 
+2018-06-14 20:28:35,861 - sim_core - INFO - Current time = 40; Progress = 2% 
+2018-06-14 20:28:35,882 - sim_core - INFO - Current time = 50; Progress = 3% 
+2018-06-14 20:28:35,910 - sim_core - INFO - Current time = 60; Progress = 3% 
+2018-06-14 20:28:35,934 - sim_core - INFO - Current time = 70; Progress = 4% 
+2018-06-14 20:28:35,958 - sim_core - INFO - Current time = 80; Progress = 4% 
+2018-06-14 20:28:35,979 - sim_core - INFO - Current time = 90; Progress = 5% 
+2018-06-14 20:28:36,010 - sim_core - INFO - Current time = 100; Progress = 6% 
+2018-06-14 20:28:36,033 - sim_core - INFO - Current time = 110; Progress = 6% 
+2018-06-14 20:28:36,057 - sim_core - INFO - Current time = 120; Progress = 7% 
+2018-06-14 20:28:36,078 - sim_core - INFO - Current time = 130; Progress = 7% 
+2018-06-14 20:28:36,103 - sim_core - INFO - Current time = 140; Progress = 8% 
+2018-06-14 20:28:36,126 - sim_core - INFO - Current time = 150; Progress = 9% 
+2018-06-14 20:28:36,150 - sim_core - INFO - Current time = 160; Progress = 9% 
+2018-06-14 20:28:36,172 - sim_core - INFO - Current time = 170; Progress = 10% 
+2018-06-14 20:28:36,196 - sim_core - INFO - Current time = 180; Progress = 11% 
+2018-06-14 20:28:36,225 - sim_core - INFO - Current time = 190; Progress = 11% 
+2018-06-14 20:28:36,253 - sim_core - INFO - Current time = 200; Progress = 12% 
+2018-06-14 20:28:36,279 - sim_core - INFO - Current time = 210; Progress = 12% 
+2018-06-14 20:28:36,303 - sim_core - INFO - Current time = 220; Progress = 13% 
+2018-06-14 20:28:36,330 - sim_core - INFO - Current time = 230; Progress = 14% 
+2018-06-14 20:28:36,356 - sim_core - INFO - Current time = 240; Progress = 14% 
+2018-06-14 20:28:36,381 - sim_core - INFO - Current time = 250; Progress = 15% 
+2018-06-14 20:28:36,404 - sim_core - INFO - Current time = 260; Progress = 15% 
+2018-06-14 20:28:36,431 - sim_core - INFO - Current time = 270; Progress = 16% 
+2018-06-14 20:28:36,459 - sim_core - INFO - Current time = 280; Progress = 17% 
+2018-06-14 20:28:36,488 - sim_core - INFO - Current time = 290; Progress = 17% 
+2018-06-14 20:28:36,521 - sim_core - INFO - Current time = 300; Progress = 18% 
+2018-06-14 20:28:36,551 - sim_core - INFO - Current time = 310; Progress = 18% 
+2018-06-14 20:28:36,580 - sim_core - INFO - Current time = 320; Progress = 19% 
+2018-06-14 20:28:36,607 - sim_core - INFO - Current time = 330; Progress = 20% 
+2018-06-14 20:28:36,639 - sim_core - INFO - Current time = 340; Progress = 20% 
+2018-06-14 20:28:36,668 - sim_core - INFO - Current time = 350; Progress = 21% 
+2018-06-14 20:28:36,700 - sim_core - INFO - Current time = 360; Progress = 22% 
+2018-06-14 20:28:36,737 - sim_core - INFO - Current time = 370; Progress = 22% 
+2018-06-14 20:28:36,774 - sim_core - INFO - Current time = 380; Progress = 23% 
+2018-06-14 20:28:36,809 - sim_core - INFO - Current time = 390; Progress = 23% 
+2018-06-14 20:28:36,842 - sim_core - INFO - Current time = 400; Progress = 24% 
+2018-06-14 20:28:36,870 - sim_core - INFO - Current time = 410; Progress = 25% 
+2018-06-14 20:28:36,897 - sim_core - INFO - Current time = 420; Progress = 25% 
+2018-06-14 20:28:36,924 - sim_core - INFO - Current time = 430; Progress = 26% 
+2018-06-14 20:28:36,952 - sim_core - INFO - Current time = 440; Progress = 26% 
+2018-06-14 20:28:36,978 - sim_core - INFO - Current time = 450; Progress = 27% 
+2018-06-14 20:28:37,007 - sim_core - INFO - Current time = 460; Progress = 28% 
+2018-06-14 20:28:37,041 - sim_core - INFO - Current time = 470; Progress = 28% 
+2018-06-14 20:28:37,095 - sim_core - INFO - Current time = 480; Progress = 29% 
+2018-06-14 20:28:37,146 - sim_core - INFO - Current time = 490; Progress = 30% 
+2018-06-14 20:28:37,188 - sim_core - INFO - Current time = 500; Progress = 30% 
+2018-06-14 20:28:37,228 - sim_core - INFO - Current time = 510; Progress = 31% 
+2018-06-14 20:28:37,269 - sim_core - INFO - Current time = 520; Progress = 31% 
+2018-06-14 20:28:37,306 - sim_core - INFO - Current time = 530; Progress = 32% 
+2018-06-14 20:28:37,342 - sim_core - INFO - Current time = 540; Progress = 33% 
+2018-06-14 20:28:37,381 - sim_core - INFO - Current time = 550; Progress = 33% 
+2018-06-14 20:28:37,420 - sim_core - INFO - Current time = 560; Progress = 34% 
+2018-06-14 20:28:37,463 - sim_core - INFO - Current time = 570; Progress = 34% 
+2018-06-14 20:28:37,505 - sim_core - INFO - Current time = 580; Progress = 35% 
+2018-06-14 20:28:37,546 - sim_core - INFO - Current time = 590; Progress = 36% 
+2018-06-14 20:28:37,609 - sim_core - INFO - Current time = 600; Progress = 36% 
+2018-06-14 20:28:37,692 - sim_core - INFO - Current time = 610; Progress = 37% 
+2018-06-14 20:28:37,766 - sim_core - INFO - Current time = 620; Progress = 37% 
+2018-06-14 20:28:37,835 - sim_core - INFO - Current time = 630; Progress = 38% 
+2018-06-14 20:28:37,882 - sim_core - INFO - Current time = 640; Progress = 39% 
+2018-06-14 20:28:37,946 - sim_core - INFO - Current time = 650; Progress = 39% 
+2018-06-14 20:28:38,040 - sim_core - INFO - Current time = 660; Progress = 40% 
+2018-06-14 20:28:38,131 - sim_core - INFO - Current time = 670; Progress = 41% 
+2018-06-14 20:28:38,218 - sim_core - INFO - Current time = 680; Progress = 41% 
+2018-06-14 20:28:38,273 - sim_core - INFO - Current time = 690; Progress = 42% 
+2018-06-14 20:28:38,321 - sim_core - INFO - Current time = 700; Progress = 42% 
+2018-06-14 20:28:38,368 - sim_core - INFO - Current time = 710; Progress = 43% 
+2018-06-14 20:28:38,414 - sim_core - INFO - Current time = 720; Progress = 44% 
+2018-06-14 20:28:38,459 - sim_core - INFO - Current time = 730; Progress = 44% 
+2018-06-14 20:28:38,507 - sim_core - INFO - Current time = 740; Progress = 45% 
+2018-06-14 20:28:38,555 - sim_core - INFO - Current time = 750; Progress = 45% 
+2018-06-14 20:28:38,602 - sim_core - INFO - Current time = 760; Progress = 46% 
+2018-06-14 20:28:38,651 - sim_core - INFO - Current time = 770; Progress = 47% 
+2018-06-14 20:28:38,699 - sim_core - INFO - Current time = 780; Progress = 47% 
+2018-06-14 20:28:38,752 - sim_core - INFO - Current time = 790; Progress = 48% 
+2018-06-14 20:28:38,800 - sim_core - INFO - Current time = 800; Progress = 48% 
+2018-06-14 20:28:38,854 - sim_core - INFO - Current time = 810; Progress = 49% 
+2018-06-14 20:28:38,904 - sim_core - INFO - Current time = 820; Progress = 50% 
+2018-06-14 20:28:38,959 - sim_core - INFO - Current time = 830; Progress = 50% 
+2018-06-14 20:28:39,009 - sim_core - INFO - Current time = 840; Progress = 51% 
+2018-06-14 20:28:39,093 - sim_core - INFO - Current time = 850; Progress = 52% 
+2018-06-14 20:28:39,146 - sim_core - INFO - Current time = 860; Progress = 52% 
+2018-06-14 20:28:39,197 - sim_core - INFO - Current time = 870; Progress = 53% 
+2018-06-14 20:28:39,251 - sim_core - INFO - Current time = 880; Progress = 53% 
+2018-06-14 20:28:39,305 - sim_core - INFO - Current time = 890; Progress = 54% 
+2018-06-14 20:28:39,367 - sim_core - INFO - Current time = 900; Progress = 55% 
+2018-06-14 20:28:39,430 - sim_core - INFO - Current time = 910; Progress = 55% 
+2018-06-14 20:28:39,501 - sim_core - INFO - Current time = 920; Progress = 56% 
+2018-06-14 20:28:39,570 - sim_core - INFO - Current time = 930; Progress = 56% 
+2018-06-14 20:28:39,636 - sim_core - INFO - Current time = 940; Progress = 57% 
+2018-06-14 20:28:39,706 - sim_core - INFO - Current time = 950; Progress = 58% 
+2018-06-14 20:28:39,776 - sim_core - INFO - Current time = 960; Progress = 58% 
+2018-06-14 20:28:39,840 - sim_core - INFO - Current time = 970; Progress = 59% 
+2018-06-14 20:28:39,906 - sim_core - INFO - Current time = 980; Progress = 60% 
+2018-06-14 20:28:39,971 - sim_core - INFO - Current time = 990; Progress = 60% 
+2018-06-14 20:28:40,039 - sim_core - INFO - Current time = 1000; Progress = 61% 
+2018-06-14 20:28:40,110 - sim_core - INFO - Current time = 1010; Progress = 61% 
+2018-06-14 20:28:40,179 - sim_core - INFO - Current time = 1020; Progress = 62% 
+2018-06-14 20:28:40,249 - sim_core - INFO - Current time = 1030; Progress = 63% 
+2018-06-14 20:28:40,322 - sim_core - INFO - Current time = 1040; Progress = 63% 
+2018-06-14 20:28:40,397 - sim_core - INFO - Current time = 1050; Progress = 64% 
+2018-06-14 20:28:40,473 - sim_core - INFO - Current time = 1060; Progress = 64% 
+2018-06-14 20:28:40,556 - sim_core - INFO - Current time = 1070; Progress = 65% 
+2018-06-14 20:28:40,669 - sim_core - INFO - Current time = 1080; Progress = 66% 
+2018-06-14 20:28:40,842 - sim_core - INFO - Current time = 1090; Progress = 66% 
+2018-06-14 20:28:41,014 - sim_core - INFO - Current time = 1100; Progress = 67% 
+2018-06-14 20:28:41,213 - sim_core - INFO - Current time = 1110; Progress = 67% 
+2018-06-14 20:28:41,422 - sim_core - INFO - Current time = 1120; Progress = 68% 
+2018-06-14 20:28:41,639 - sim_core - INFO - Current time = 1130; Progress = 69% 
+2018-06-14 20:28:41,870 - sim_core - INFO - Current time = 1140; Progress = 69% 
+2018-06-14 20:28:42,130 - sim_core - INFO - Current time = 1150; Progress = 70% 
+2018-06-14 20:28:42,404 - sim_core - INFO - Current time = 1160; Progress = 71% 
+2018-06-14 20:28:42,674 - sim_core - INFO - Current time = 1170; Progress = 71% 
+2018-06-14 20:28:43,101 - sim_core - INFO - Current time = 1180; Progress = 72% 
+2018-06-14 20:28:43,958 - sim_core - INFO - Current time = 1190; Progress = 72% 
+2018-06-14 20:28:44,985 - sim_core - INFO - Current time = 1200; Progress = 73% 
+2018-06-14 20:28:46,428 - sim_core - INFO - Current time = 1210; Progress = 74% 
+2018-06-14 20:28:47,788 - sim_core - INFO - Current time = 1220; Progress = 74% 
+2018-06-14 20:28:49,134 - sim_core - INFO - Current time = 1230; Progress = 75% 
+2018-06-14 20:28:50,488 - sim_core - INFO - Current time = 1240; Progress = 75% 
+2018-06-14 20:28:51,856 - sim_core - INFO - Current time = 1250; Progress = 76% 
+2018-06-14 20:28:53,227 - sim_core - INFO - Current time = 1260; Progress = 77% 
+2018-06-14 20:28:54,576 - sim_core - INFO - Current time = 1270; Progress = 77% 
+2018-06-14 20:28:55,922 - sim_core - INFO - Current time = 1280; Progress = 78% 
+2018-06-14 20:28:57,290 - sim_core - INFO - Current time = 1290; Progress = 78% 
+2018-06-14 20:28:58,680 - sim_core - INFO - Current time = 1300; Progress = 79% 
+2018-06-14 20:29:00,044 - sim_core - INFO - Current time = 1310; Progress = 80% 
+2018-06-14 20:29:01,437 - sim_core - INFO - Current time = 1320; Progress = 80% 
+2018-06-14 20:29:02,822 - sim_core - INFO - Current time = 1330; Progress = 81% 
+2018-06-14 20:29:04,201 - sim_core - INFO - Current time = 1340; Progress = 82% 
+2018-06-14 20:29:05,562 - sim_core - INFO - Current time = 1350; Progress = 82% 
+2018-06-14 20:29:06,933 - sim_core - INFO - Current time = 1360; Progress = 83% 
+2018-06-14 20:29:08,307 - sim_core - INFO - Current time = 1370; Progress = 83% 
+2018-06-14 20:29:09,753 - sim_core - INFO - Current time = 1380; Progress = 84% 
+2018-06-14 20:29:11,164 - sim_core - INFO - Current time = 1390; Progress = 85% 
+2018-06-14 20:29:12,575 - sim_core - INFO - Current time = 1400; Progress = 85% 
+2018-06-14 20:29:13,952 - sim_core - INFO - Current time = 1410; Progress = 86% 
+2018-06-14 20:29:15,298 - sim_core - INFO - Current time = 1420; Progress = 86% 
+2018-06-14 20:29:16,657 - sim_core - INFO - Current time = 1430; Progress = 87% 
+2018-06-14 20:29:18,007 - sim_core - INFO - Current time = 1440; Progress = 88% 
+2018-06-14 20:29:19,356 - sim_core - INFO - Current time = 1450; Progress = 88% 
+2018-06-14 20:29:20,698 - sim_core - INFO - Current time = 1460; Progress = 89% 
+2018-06-14 20:29:22,025 - sim_core - INFO - Current time = 1470; Progress = 90% 
+2018-06-14 20:29:23,345 - sim_core - INFO - Current time = 1480; Progress = 90% 
+2018-06-14 20:29:24,704 - sim_core - INFO - Current time = 1490; Progress = 91% 
+2018-06-14 20:29:26,077 - sim_core - INFO - Current time = 1500; Progress = 91% 
+2018-06-14 20:29:27,475 - sim_core - INFO - Current time = 1510; Progress = 92% 
+2018-06-14 20:29:28,858 - sim_core - INFO - Current time = 1520; Progress = 93% 
+2018-06-14 20:29:30,221 - sim_core - INFO - Current time = 1530; Progress = 93% 
+2018-06-14 20:29:31,610 - sim_core - INFO - Current time = 1540; Progress = 94% 
+2018-06-14 20:29:32,971 - sim_core - INFO - Current time = 1550; Progress = 94% 
+2018-06-14 20:29:34,379 - sim_core - INFO - Current time = 1560; Progress = 95% 
+2018-06-14 20:29:35,784 - sim_core - INFO - Current time = 1570; Progress = 96% 
+2018-06-14 20:29:37,191 - sim_core - INFO - Current time = 1580; Progress = 96% 
+2018-06-14 20:29:38,555 - sim_core - INFO - Current time = 1590; Progress = 97% 
+2018-06-14 20:29:39,950 - sim_core - INFO - Current time = 1600; Progress = 97% 
+2018-06-14 20:29:41,342 - sim_core - INFO - Current time = 1610; Progress = 98% 
+2018-06-14 20:29:42,714 - sim_core - INFO - Current time = 1620; Progress = 99% 
+2018-06-14 20:29:44,102 - sim_core - INFO - Current time = 1630; Progress = 99% 
+2018-06-14 20:29:44,514 - sim_core - INFO - Main iteration loop finished
+2018-06-14 20:29:44,515 - functions.output - INFO - Simulation finished
+	Average time spent in the algorithm: 73.37 seconds
+2018-06-14 20:29:44,515 - sim_core - INFO - Generating individual graphics
+2018-06-14 20:31:09,852 - sim_core - INFO - Sim_core iteration terminated
+2018-06-14 20:31:09,914 - launchers.launcher_four - INFO - pso algorithm: iteration 0
+	 initial drones positions: _tr
+2018-06-14 20:31:09,914 - launchers.launcher_four - INFO - Calling sim_core
+2018-06-14 20:31:09,915 - sim_core - INFO - Checking input values
+2018-06-14 20:31:09,915 - sim_core - INFO - Creating simulation files
+2018-06-14 20:31:09,915 - functions.output - INFO - Simulation parameters:
+	 Input filename: /home/jesus/Develop/uav_ns/auav/src/scenarios/180614-202806/180614-202811_main.wml
+	 Number of nodes: 200
+	 Duration (seconds): 1633
+	 Number of Drones: 6
+	 Drones max_speed: 15
+	 Initial distribution: corner_top_right
+	 Area dimension: [5000, 5000]
+	 Algorithm: pso
+	 Current iteration: 0
+2018-06-14 20:31:09,916 - sim_core - INFO - Creating simulation objects: drones, nodes and sim_network
+2018-06-14 20:31:09,916 - functions.initialize - INFO - Loading scenario...
+2018-06-14 20:31:14,645 - functions.initialize - INFO - Scenario loaded
+2018-06-14 20:31:14,654 - sim_core - INFO - Starting simulation main loop
+2018-06-14 20:31:14,654 - sim_core - INFO - Current time = 0; Progress = 0% 
+2018-06-14 20:31:14,678 - sim_core - INFO - Current time = 10; Progress = 0% 
+2018-06-14 20:31:14,699 - sim_core - INFO - Current time = 20; Progress = 1% 
+2018-06-14 20:31:14,720 - sim_core - INFO - Current time = 30; Progress = 1% 
+2018-06-14 20:31:14,742 - sim_core - INFO - Current time = 40; Progress = 2% 
+2018-06-14 20:31:14,761 - sim_core - INFO - Current time = 50; Progress = 3% 
+2018-06-14 20:31:14,783 - sim_core - INFO - Current time = 60; Progress = 3% 
+2018-06-14 20:31:14,806 - sim_core - INFO - Current time = 70; Progress = 4% 
+2018-06-14 20:31:14,827 - sim_core - INFO - Current time = 80; Progress = 4% 
+2018-06-14 20:31:14,849 - sim_core - INFO - Current time = 90; Progress = 5% 
+2018-06-14 20:31:14,870 - sim_core - INFO - Current time = 100; Progress = 6% 
+2018-06-14 20:31:14,894 - sim_core - INFO - Current time = 110; Progress = 6% 
+2018-06-14 20:31:14,918 - sim_core - INFO - Current time = 120; Progress = 7% 
+2018-06-14 20:31:14,939 - sim_core - INFO - Current time = 130; Progress = 7% 
+2018-06-14 20:31:14,961 - sim_core - INFO - Current time = 140; Progress = 8% 
+2018-06-14 20:31:14,986 - sim_core - INFO - Current time = 150; Progress = 9% 
+2018-06-14 20:31:15,012 - sim_core - INFO - Current time = 160; Progress = 9% 
+2018-06-14 20:31:15,037 - sim_core - INFO - Current time = 170; Progress = 10% 
+2018-06-14 20:31:15,061 - sim_core - INFO - Current time = 180; Progress = 11% 
+2018-06-14 20:31:15,088 - sim_core - INFO - Current time = 190; Progress = 11% 
+2018-06-14 20:31:15,115 - sim_core - INFO - Current time = 200; Progress = 12% 
+2018-06-14 20:31:15,139 - sim_core - INFO - Current time = 210; Progress = 12% 
+2018-06-14 20:31:15,163 - sim_core - INFO - Current time = 220; Progress = 13% 
+2018-06-14 20:31:15,184 - sim_core - INFO - Current time = 230; Progress = 14% 
+2018-06-14 20:31:15,209 - sim_core - INFO - Current time = 240; Progress = 14% 
+2018-06-14 20:31:15,234 - sim_core - INFO - Current time = 250; Progress = 15% 
+2018-06-14 20:31:15,258 - sim_core - INFO - Current time = 260; Progress = 15% 
+2018-06-14 20:31:15,280 - sim_core - INFO - Current time = 270; Progress = 16% 
+2018-06-14 20:31:15,305 - sim_core - INFO - Current time = 280; Progress = 17% 
+2018-06-14 20:31:15,332 - sim_core - INFO - Current time = 290; Progress = 17% 
+2018-06-14 20:31:15,356 - sim_core - INFO - Current time = 300; Progress = 18% 
+2018-06-14 20:31:15,378 - sim_core - INFO - Current time = 310; Progress = 18% 
+2018-06-14 20:31:15,403 - sim_core - INFO - Current time = 320; Progress = 19% 
+2018-06-14 20:31:15,433 - sim_core - INFO - Current time = 330; Progress = 20% 
+2018-06-14 20:31:15,462 - sim_core - INFO - Current time = 340; Progress = 20% 
+2018-06-14 20:31:15,493 - sim_core - INFO - Current time = 350; Progress = 21% 
+2018-06-14 20:31:15,525 - sim_core - INFO - Current time = 360; Progress = 22% 
+2018-06-14 20:31:15,555 - sim_core - INFO - Current time = 370; Progress = 22% 
+2018-06-14 20:31:15,580 - sim_core - INFO - Current time = 380; Progress = 23% 
+2018-06-14 20:31:15,603 - sim_core - INFO - Current time = 390; Progress = 23% 
+2018-06-14 20:31:15,631 - sim_core - INFO - Current time = 400; Progress = 24% 
+2018-06-14 20:31:15,657 - sim_core - INFO - Current time = 410; Progress = 25% 
+2018-06-14 20:31:15,685 - sim_core - INFO - Current time = 420; Progress = 25% 
+2018-06-14 20:31:15,715 - sim_core - INFO - Current time = 430; Progress = 26% 
+2018-06-14 20:31:15,743 - sim_core - INFO - Current time = 440; Progress = 26% 
+2018-06-14 20:31:15,767 - sim_core - INFO - Current time = 450; Progress = 27% 
+2018-06-14 20:31:15,793 - sim_core - INFO - Current time = 460; Progress = 28% 
+2018-06-14 20:31:15,819 - sim_core - INFO - Current time = 470; Progress = 28% 
+2018-06-14 20:31:15,848 - sim_core - INFO - Current time = 480; Progress = 29% 
+2018-06-14 20:31:15,877 - sim_core - INFO - Current time = 490; Progress = 30% 
+2018-06-14 20:31:15,909 - sim_core - INFO - Current time = 500; Progress = 30% 
+2018-06-14 20:31:15,941 - sim_core - INFO - Current time = 510; Progress = 31% 
+2018-06-14 20:31:15,970 - sim_core - INFO - Current time = 520; Progress = 31% 
+2018-06-14 20:31:15,996 - sim_core - INFO - Current time = 530; Progress = 32% 
+2018-06-14 20:31:16,021 - sim_core - INFO - Current time = 540; Progress = 33% 
+2018-06-14 20:31:16,055 - sim_core - INFO - Current time = 550; Progress = 33% 
+2018-06-14 20:31:16,087 - sim_core - INFO - Current time = 560; Progress = 34% 
+2018-06-14 20:31:16,120 - sim_core - INFO - Current time = 570; Progress = 34% 
+2018-06-14 20:31:16,152 - sim_core - INFO - Current time = 580; Progress = 35% 
+2018-06-14 20:31:16,190 - sim_core - INFO - Current time = 590; Progress = 36% 
+2018-06-14 20:31:16,221 - sim_core - INFO - Current time = 600; Progress = 36% 
+2018-06-14 20:31:16,255 - sim_core - INFO - Current time = 610; Progress = 37% 
+2018-06-14 20:31:16,292 - sim_core - INFO - Current time = 620; Progress = 37% 
+2018-06-14 20:31:16,328 - sim_core - INFO - Current time = 630; Progress = 38% 
+2018-06-14 20:31:16,363 - sim_core - INFO - Current time = 640; Progress = 39% 
+2018-06-14 20:31:16,396 - sim_core - INFO - Current time = 650; Progress = 39% 
+2018-06-14 20:31:16,429 - sim_core - INFO - Current time = 660; Progress = 40% 
+2018-06-14 20:31:16,459 - sim_core - INFO - Current time = 670; Progress = 41% 
+2018-06-14 20:31:16,490 - sim_core - INFO - Current time = 680; Progress = 41% 
+2018-06-14 20:31:16,519 - sim_core - INFO - Current time = 690; Progress = 42% 
+2018-06-14 20:31:16,550 - sim_core - INFO - Current time = 700; Progress = 42% 
+2018-06-14 20:31:16,590 - sim_core - INFO - Current time = 710; Progress = 43% 
+2018-06-14 20:31:16,626 - sim_core - INFO - Current time = 720; Progress = 44% 
+2018-06-14 20:31:16,658 - sim_core - INFO - Current time = 730; Progress = 44% 
+2018-06-14 20:31:16,692 - sim_core - INFO - Current time = 740; Progress = 45% 
+2018-06-14 20:31:16,722 - sim_core - INFO - Current time = 750; Progress = 45% 
+2018-06-14 20:31:16,752 - sim_core - INFO - Current time = 760; Progress = 46% 
+2018-06-14 20:31:16,784 - sim_core - INFO - Current time = 770; Progress = 47% 
+2018-06-14 20:31:16,816 - sim_core - INFO - Current time = 780; Progress = 47% 
+2018-06-14 20:31:16,850 - sim_core - INFO - Current time = 790; Progress = 48% 
+2018-06-14 20:31:16,891 - sim_core - INFO - Current time = 800; Progress = 48% 
+2018-06-14 20:31:16,924 - sim_core - INFO - Current time = 810; Progress = 49% 
+2018-06-14 20:31:16,955 - sim_core - INFO - Current time = 820; Progress = 50% 
+2018-06-14 20:31:16,992 - sim_core - INFO - Current time = 830; Progress = 50% 
+2018-06-14 20:31:17,025 - sim_core - INFO - Current time = 840; Progress = 51% 
+2018-06-14 20:31:17,057 - sim_core - INFO - Current time = 850; Progress = 52% 
+2018-06-14 20:31:17,106 - sim_core - INFO - Current time = 860; Progress = 52% 
+2018-06-14 20:31:17,152 - sim_core - INFO - Current time = 870; Progress = 53% 
+2018-06-14 20:31:17,202 - sim_core - INFO - Current time = 880; Progress = 53% 
+2018-06-14 20:31:17,246 - sim_core - INFO - Current time = 890; Progress = 54% 
+2018-06-14 20:31:17,286 - sim_core - INFO - Current time = 900; Progress = 55% 
+2018-06-14 20:31:17,328 - sim_core - INFO - Current time = 910; Progress = 55% 
+2018-06-14 20:31:17,368 - sim_core - INFO - Current time = 920; Progress = 56% 
+2018-06-14 20:31:17,411 - sim_core - INFO - Current time = 930; Progress = 56% 
+2018-06-14 20:31:17,455 - sim_core - INFO - Current time = 940; Progress = 57% 
+2018-06-14 20:31:17,498 - sim_core - INFO - Current time = 950; Progress = 58% 
+2018-06-14 20:31:17,542 - sim_core - INFO - Current time = 960; Progress = 58% 
+2018-06-14 20:31:17,586 - sim_core - INFO - Current time = 970; Progress = 59% 
+2018-06-14 20:31:17,629 - sim_core - INFO - Current time = 980; Progress = 60% 
+2018-06-14 20:31:17,672 - sim_core - INFO - Current time = 990; Progress = 60% 
+2018-06-14 20:31:17,716 - sim_core - INFO - Current time = 1000; Progress = 61% 
+2018-06-14 20:31:17,761 - sim_core - INFO - Current time = 1010; Progress = 61% 
+2018-06-14 20:31:17,806 - sim_core - INFO - Current time = 1020; Progress = 62% 
+2018-06-14 20:31:17,853 - sim_core - INFO - Current time = 1030; Progress = 63% 
+2018-06-14 20:31:17,898 - sim_core - INFO - Current time = 1040; Progress = 63% 
+2018-06-14 20:31:17,946 - sim_core - INFO - Current time = 1050; Progress = 64% 
+2018-06-14 20:31:17,990 - sim_core - INFO - Current time = 1060; Progress = 64% 
+2018-06-14 20:31:18,038 - sim_core - INFO - Current time = 1070; Progress = 65% 
+2018-06-14 20:31:18,083 - sim_core - INFO - Current time = 1080; Progress = 66% 
+2018-06-14 20:31:18,134 - sim_core - INFO - Current time = 1090; Progress = 66% 
+2018-06-14 20:31:18,194 - sim_core - INFO - Current time = 1100; Progress = 67% 
+2018-06-14 20:31:18,260 - sim_core - INFO - Current time = 1110; Progress = 67% 
+2018-06-14 20:31:18,325 - sim_core - INFO - Current time = 1120; Progress = 68% 
+2018-06-14 20:31:18,393 - sim_core - INFO - Current time = 1130; Progress = 69% 
+2018-06-14 20:31:18,459 - sim_core - INFO - Current time = 1140; Progress = 69% 
+2018-06-14 20:31:18,527 - sim_core - INFO - Current time = 1150; Progress = 70% 
+2018-06-14 20:31:18,594 - sim_core - INFO - Current time = 1160; Progress = 71% 
+2018-06-14 20:31:18,663 - sim_core - INFO - Current time = 1170; Progress = 71% 
+2018-06-14 20:31:18,728 - sim_core - INFO - Current time = 1180; Progress = 72% 
+2018-06-14 20:31:18,795 - sim_core - INFO - Current time = 1190; Progress = 72% 
+2018-06-14 20:31:18,860 - sim_core - INFO - Current time = 1200; Progress = 73% 
+2018-06-14 20:31:18,926 - sim_core - INFO - Current time = 1210; Progress = 74% 
+2018-06-14 20:31:18,991 - sim_core - INFO - Current time = 1220; Progress = 74% 
+2018-06-14 20:31:19,056 - sim_core - INFO - Current time = 1230; Progress = 75% 
+2018-06-14 20:31:19,121 - sim_core - INFO - Current time = 1240; Progress = 75% 
+2018-06-14 20:31:19,190 - sim_core - INFO - Current time = 1250; Progress = 76% 
+2018-06-14 20:31:19,257 - sim_core - INFO - Current time = 1260; Progress = 77% 
+2018-06-14 20:31:19,325 - sim_core - INFO - Current time = 1270; Progress = 77% 
+2018-06-14 20:31:19,392 - sim_core - INFO - Current time = 1280; Progress = 78% 
+2018-06-14 20:31:19,457 - sim_core - INFO - Current time = 1290; Progress = 78% 
+2018-06-14 20:31:19,526 - sim_core - INFO - Current time = 1300; Progress = 79% 
+2018-06-14 20:31:19,599 - sim_core - INFO - Current time = 1310; Progress = 80% 
+2018-06-14 20:31:19,665 - sim_core - INFO - Current time = 1320; Progress = 80% 
+2018-06-14 20:31:19,744 - sim_core - INFO - Current time = 1330; Progress = 81% 
+2018-06-14 20:31:19,828 - sim_core - INFO - Current time = 1340; Progress = 82% 
+2018-06-14 20:31:19,897 - sim_core - INFO - Current time = 1350; Progress = 82% 
+2018-06-14 20:31:19,966 - sim_core - INFO - Current time = 1360; Progress = 83% 
+2018-06-14 20:31:20,036 - sim_core - INFO - Current time = 1370; Progress = 83% 
+2018-06-14 20:31:20,104 - sim_core - INFO - Current time = 1380; Progress = 84% 
+2018-06-14 20:31:20,174 - sim_core - INFO - Current time = 1390; Progress = 85% 
+2018-06-14 20:31:20,244 - sim_core - INFO - Current time = 1400; Progress = 85% 
+2018-06-14 20:31:20,313 - sim_core - INFO - Current time = 1410; Progress = 86% 
+2018-06-14 20:31:20,381 - sim_core - INFO - Current time = 1420; Progress = 86% 
+2018-06-14 20:31:20,450 - sim_core - INFO - Current time = 1430; Progress = 87% 
+2018-06-14 20:31:20,524 - sim_core - INFO - Current time = 1440; Progress = 88% 
+2018-06-14 20:31:20,603 - sim_core - INFO - Current time = 1450; Progress = 88% 
+2018-06-14 20:31:20,673 - sim_core - INFO - Current time = 1460; Progress = 89% 
+2018-06-14 20:31:20,743 - sim_core - INFO - Current time = 1470; Progress = 90% 
+2018-06-14 20:31:20,809 - sim_core - INFO - Current time = 1480; Progress = 90% 
+2018-06-14 20:31:20,877 - sim_core - INFO - Current time = 1490; Progress = 91% 
+2018-06-14 20:31:20,945 - sim_core - INFO - Current time = 1500; Progress = 91% 
+2018-06-14 20:31:21,013 - sim_core - INFO - Current time = 1510; Progress = 92% 
+2018-06-14 20:31:21,085 - sim_core - INFO - Current time = 1520; Progress = 93% 
+2018-06-14 20:31:21,155 - sim_core - INFO - Current time = 1530; Progress = 93% 
+2018-06-14 20:31:21,223 - sim_core - INFO - Current time = 1540; Progress = 94% 
+2018-06-14 20:31:21,294 - sim_core - INFO - Current time = 1550; Progress = 94% 
+2018-06-14 20:31:21,365 - sim_core - INFO - Current time = 1560; Progress = 95% 
+2018-06-14 20:31:21,432 - sim_core - INFO - Current time = 1570; Progress = 96% 
+2018-06-14 20:31:21,503 - sim_core - INFO - Current time = 1580; Progress = 96% 
+2018-06-14 20:31:21,579 - sim_core - INFO - Current time = 1590; Progress = 97% 
+2018-06-14 20:31:21,647 - sim_core - INFO - Current time = 1600; Progress = 97% 
+2018-06-14 20:31:21,720 - sim_core - INFO - Current time = 1610; Progress = 98% 
+2018-06-14 20:31:21,794 - sim_core - INFO - Current time = 1620; Progress = 99% 
+2018-06-14 20:31:21,861 - sim_core - INFO - Current time = 1630; Progress = 99% 
+2018-06-14 20:31:21,882 - sim_core - INFO - Main iteration loop finished
+2018-06-14 20:31:21,883 - functions.output - INFO - Simulation finished
+	Average time spent in the algorithm: 11.97 seconds
+2018-06-14 20:31:21,883 - sim_core - INFO - Generating individual graphics
+2018-06-14 20:31:41,645 - charts.drone_charts - WARNING - AttributeError exception caught: 'EventCollection' object has no attribute '_is_horizontal'
+	scatter plot will be used instead of event plot
+2018-06-14 20:32:16,820 - sim_core - INFO - Sim_core iteration terminated
+2018-06-14 20:32:16,877 - launchers.launcher_four - INFO - pso algorithm: iteration 1
+	 initial drones positions: _tl
+2018-06-14 20:32:16,877 - launchers.launcher_four - INFO - Calling sim_core
+2018-06-14 20:32:16,878 - sim_core - INFO - Checking input values
+2018-06-14 20:32:16,878 - sim_core - INFO - Creating simulation files
+2018-06-14 20:32:16,878 - functions.output - INFO - Simulation parameters:
+	 Input filename: /home/jesus/Develop/uav_ns/auav/src/scenarios/180614-202806/180614-202811_main.wml
+	 Number of nodes: 200
+	 Duration (seconds): 1633
+	 Number of Drones: 6
+	 Drones max_speed: 15
+	 Initial distribution: corner_top_left
+	 Area dimension: [5000, 5000]
+	 Algorithm: pso
+	 Current iteration: 1
+2018-06-14 20:32:16,879 - sim_core - INFO - Creating simulation objects: drones, nodes and sim_network
+2018-06-14 20:32:16,879 - functions.initialize - INFO - Loading scenario...
+2018-06-14 20:32:21,467 - functions.initialize - INFO - Scenario loaded
+2018-06-14 20:32:21,476 - sim_core - INFO - Starting simulation main loop
+2018-06-14 20:32:21,477 - sim_core - INFO - Current time = 0; Progress = 0% 
+2018-06-14 20:32:21,502 - sim_core - INFO - Current time = 10; Progress = 0% 
+2018-06-14 20:32:21,523 - sim_core - INFO - Current time = 20; Progress = 1% 
+2018-06-14 20:32:21,547 - sim_core - INFO - Current time = 30; Progress = 1% 
+2018-06-14 20:32:21,572 - sim_core - INFO - Current time = 40; Progress = 2% 
+2018-06-14 20:32:21,598 - sim_core - INFO - Current time = 50; Progress = 3% 
+2018-06-14 20:32:21,623 - sim_core - INFO - Current time = 60; Progress = 3% 
+2018-06-14 20:32:21,647 - sim_core - INFO - Current time = 70; Progress = 4% 
+2018-06-14 20:32:21,673 - sim_core - INFO - Current time = 80; Progress = 4% 
+2018-06-14 20:32:21,697 - sim_core - INFO - Current time = 90; Progress = 5% 
+2018-06-14 20:32:21,718 - sim_core - INFO - Current time = 100; Progress = 6% 
+2018-06-14 20:32:21,742 - sim_core - INFO - Current time = 110; Progress = 6% 
+2018-06-14 20:32:21,766 - sim_core - INFO - Current time = 120; Progress = 7% 
+2018-06-14 20:32:21,789 - sim_core - INFO - Current time = 130; Progress = 7% 
+2018-06-14 20:32:21,812 - sim_core - INFO - Current time = 140; Progress = 8% 
+2018-06-14 20:32:21,838 - sim_core - INFO - Current time = 150; Progress = 9% 
+2018-06-14 20:32:21,863 - sim_core - INFO - Current time = 160; Progress = 9% 
+2018-06-14 20:32:21,886 - sim_core - INFO - Current time = 170; Progress = 10% 
+2018-06-14 20:32:21,909 - sim_core - INFO - Current time = 180; Progress = 11% 
+2018-06-14 20:32:21,938 - sim_core - INFO - Current time = 190; Progress = 11% 
+2018-06-14 20:32:21,966 - sim_core - INFO - Current time = 200; Progress = 12% 
+2018-06-14 20:32:21,994 - sim_core - INFO - Current time = 210; Progress = 12% 
+2018-06-14 20:32:22,022 - sim_core - INFO - Current time = 220; Progress = 13% 
+2018-06-14 20:32:22,050 - sim_core - INFO - Current time = 230; Progress = 14% 
+2018-06-14 20:32:22,074 - sim_core - INFO - Current time = 240; Progress = 14% 
+2018-06-14 20:32:22,100 - sim_core - INFO - Current time = 250; Progress = 15% 
+2018-06-14 20:32:22,128 - sim_core - INFO - Current time = 260; Progress = 15% 
+2018-06-14 20:32:22,159 - sim_core - INFO - Current time = 270; Progress = 16% 
+2018-06-14 20:32:22,189 - sim_core - INFO - Current time = 280; Progress = 17% 
+2018-06-14 20:32:22,219 - sim_core - INFO - Current time = 290; Progress = 17% 
+2018-06-14 20:32:22,250 - sim_core - INFO - Current time = 300; Progress = 18% 
+2018-06-14 20:32:22,280 - sim_core - INFO - Current time = 310; Progress = 18% 
+2018-06-14 20:32:22,310 - sim_core - INFO - Current time = 320; Progress = 19% 
+2018-06-14 20:32:22,341 - sim_core - INFO - Current time = 330; Progress = 20% 
+2018-06-14 20:32:22,371 - sim_core - INFO - Current time = 340; Progress = 20% 
+2018-06-14 20:32:22,403 - sim_core - INFO - Current time = 350; Progress = 21% 
+2018-06-14 20:32:22,439 - sim_core - INFO - Current time = 360; Progress = 22% 
+2018-06-14 20:32:22,486 - sim_core - INFO - Current time = 370; Progress = 22% 
+2018-06-14 20:32:22,526 - sim_core - INFO - Current time = 380; Progress = 23% 
+2018-06-14 20:32:22,568 - sim_core - INFO - Current time = 390; Progress = 23% 
+2018-06-14 20:32:22,602 - sim_core - INFO - Current time = 400; Progress = 24% 
+2018-06-14 20:32:22,631 - sim_core - INFO - Current time = 410; Progress = 25% 
+2018-06-14 20:32:22,666 - sim_core - INFO - Current time = 420; Progress = 25% 
+2018-06-14 20:32:22,696 - sim_core - INFO - Current time = 430; Progress = 26% 
+2018-06-14 20:32:22,723 - sim_core - INFO - Current time = 440; Progress = 26% 
+2018-06-14 20:32:22,753 - sim_core - INFO - Current time = 450; Progress = 27% 
+2018-06-14 20:32:22,790 - sim_core - INFO - Current time = 460; Progress = 28% 
+2018-06-14 20:32:22,820 - sim_core - INFO - Current time = 470; Progress = 28% 
+2018-06-14 20:32:22,870 - sim_core - INFO - Current time = 480; Progress = 29% 
+2018-06-14 20:32:22,941 - sim_core - INFO - Current time = 490; Progress = 30% 
+2018-06-14 20:32:22,988 - sim_core - INFO - Current time = 500; Progress = 30% 
+2018-06-14 20:32:23,025 - sim_core - INFO - Current time = 510; Progress = 31% 
+2018-06-14 20:32:23,059 - sim_core - INFO - Current time = 520; Progress = 31% 
+2018-06-14 20:32:23,101 - sim_core - INFO - Current time = 530; Progress = 32% 
+2018-06-14 20:32:23,137 - sim_core - INFO - Current time = 540; Progress = 33% 
+2018-06-14 20:32:23,177 - sim_core - INFO - Current time = 550; Progress = 33% 
+2018-06-14 20:32:23,226 - sim_core - INFO - Current time = 560; Progress = 34% 
+2018-06-14 20:32:23,276 - sim_core - INFO - Current time = 570; Progress = 34% 
+2018-06-14 20:32:23,331 - sim_core - INFO - Current time = 580; Progress = 35% 
+2018-06-14 20:32:23,381 - sim_core - INFO - Current time = 590; Progress = 36% 
+2018-06-14 20:32:23,428 - sim_core - INFO - Current time = 600; Progress = 36% 
+2018-06-14 20:32:23,473 - sim_core - INFO - Current time = 610; Progress = 37% 
+2018-06-14 20:32:23,522 - sim_core - INFO - Current time = 620; Progress = 37% 
+2018-06-14 20:32:23,562 - sim_core - INFO - Current time = 630; Progress = 38% 
+2018-06-14 20:32:23,603 - sim_core - INFO - Current time = 640; Progress = 39% 
+2018-06-14 20:32:23,646 - sim_core - INFO - Current time = 650; Progress = 39% 
+2018-06-14 20:32:23,685 - sim_core - INFO - Current time = 660; Progress = 40% 
+2018-06-14 20:32:23,731 - sim_core - INFO - Current time = 670; Progress = 41% 
+2018-06-14 20:32:23,770 - sim_core - INFO - Current time = 680; Progress = 41% 
+2018-06-14 20:32:23,889 - sim_core - INFO - Current time = 690; Progress = 42% 
+2018-06-14 20:32:23,985 - sim_core - INFO - Current time = 700; Progress = 42% 
+2018-06-14 20:32:24,041 - sim_core - INFO - Current time = 710; Progress = 43% 
+2018-06-14 20:32:24,093 - sim_core - INFO - Current time = 720; Progress = 44% 
+2018-06-14 20:32:24,152 - sim_core - INFO - Current time = 730; Progress = 44% 
+2018-06-14 20:32:24,206 - sim_core - INFO - Current time = 740; Progress = 45% 
+2018-06-14 20:32:24,263 - sim_core - INFO - Current time = 750; Progress = 45% 
+2018-06-14 20:32:24,320 - sim_core - INFO - Current time = 760; Progress = 46% 
+2018-06-14 20:32:24,384 - sim_core - INFO - Current time = 770; Progress = 47% 
+2018-06-14 20:32:24,460 - sim_core - INFO - Current time = 780; Progress = 47% 
+2018-06-14 20:32:24,536 - sim_core - INFO - Current time = 790; Progress = 48% 
+2018-06-14 20:32:24,617 - sim_core - INFO - Current time = 800; Progress = 48% 
+2018-06-14 20:32:24,695 - sim_core - INFO - Current time = 810; Progress = 49% 
+2018-06-14 20:32:24,770 - sim_core - INFO - Current time = 820; Progress = 50% 
+2018-06-14 20:32:24,838 - sim_core - INFO - Current time = 830; Progress = 50% 
+2018-06-14 20:32:24,922 - sim_core - INFO - Current time = 840; Progress = 51% 
+2018-06-14 20:32:25,056 - sim_core - INFO - Current time = 850; Progress = 52% 
+2018-06-14 20:32:25,298 - sim_core - INFO - Current time = 860; Progress = 52% 
+2018-06-14 20:32:25,603 - sim_core - INFO - Current time = 870; Progress = 53% 
+2018-06-14 20:32:25,843 - sim_core - INFO - Current time = 880; Progress = 53% 
+2018-06-14 20:32:25,999 - sim_core - INFO - Current time = 890; Progress = 54% 
+2018-06-14 20:32:26,074 - sim_core - INFO - Current time = 900; Progress = 55% 
+2018-06-14 20:32:26,161 - sim_core - INFO - Current time = 910; Progress = 55% 
+2018-06-14 20:32:26,253 - sim_core - INFO - Current time = 920; Progress = 56% 
+2018-06-14 20:32:26,398 - sim_core - INFO - Current time = 930; Progress = 56% 
+2018-06-14 20:32:26,758 - sim_core - INFO - Current time = 940; Progress = 57% 
+2018-06-14 20:32:27,139 - sim_core - INFO - Current time = 950; Progress = 58% 
+2018-06-14 20:32:27,510 - sim_core - INFO - Current time = 960; Progress = 58% 
+2018-06-14 20:32:27,884 - sim_core - INFO - Current time = 970; Progress = 59% 
+2018-06-14 20:32:28,244 - sim_core - INFO - Current time = 980; Progress = 60% 
+2018-06-14 20:32:28,608 - sim_core - INFO - Current time = 990; Progress = 60% 
+2018-06-14 20:32:28,978 - sim_core - INFO - Current time = 1000; Progress = 61% 
+2018-06-14 20:32:29,345 - sim_core - INFO - Current time = 1010; Progress = 61% 
+2018-06-14 20:32:29,709 - sim_core - INFO - Current time = 1020; Progress = 62% 
+2018-06-14 20:32:30,069 - sim_core - INFO - Current time = 1030; Progress = 63% 
+2018-06-14 20:32:30,437 - sim_core - INFO - Current time = 1040; Progress = 63% 
+2018-06-14 20:32:30,816 - sim_core - INFO - Current time = 1050; Progress = 64% 
+2018-06-14 20:32:31,189 - sim_core - INFO - Current time = 1060; Progress = 64% 
+2018-06-14 20:32:31,566 - sim_core - INFO - Current time = 1070; Progress = 65% 
+2018-06-14 20:32:31,932 - sim_core - INFO - Current time = 1080; Progress = 66% 
+2018-06-14 20:32:32,292 - sim_core - INFO - Current time = 1090; Progress = 66% 
+2018-06-14 20:32:32,649 - sim_core - INFO - Current time = 1100; Progress = 67% 
+2018-06-14 20:32:33,009 - sim_core - INFO - Current time = 1110; Progress = 67% 
+2018-06-14 20:32:33,367 - sim_core - INFO - Current time = 1120; Progress = 68% 
+2018-06-14 20:32:33,736 - sim_core - INFO - Current time = 1130; Progress = 69% 
+2018-06-14 20:32:34,096 - sim_core - INFO - Current time = 1140; Progress = 69% 
+2018-06-14 20:32:34,462 - sim_core - INFO - Current time = 1150; Progress = 70% 
+2018-06-14 20:32:34,828 - sim_core - INFO - Current time = 1160; Progress = 71% 
+2018-06-14 20:32:35,187 - sim_core - INFO - Current time = 1170; Progress = 71% 
+2018-06-14 20:32:35,540 - sim_core - INFO - Current time = 1180; Progress = 72% 
+2018-06-14 20:32:35,896 - sim_core - INFO - Current time = 1190; Progress = 72% 
+2018-06-14 20:32:36,249 - sim_core - INFO - Current time = 1200; Progress = 73% 
+2018-06-14 20:32:36,611 - sim_core - INFO - Current time = 1210; Progress = 74% 
+2018-06-14 20:32:36,979 - sim_core - INFO - Current time = 1220; Progress = 74% 
+2018-06-14 20:32:37,339 - sim_core - INFO - Current time = 1230; Progress = 75% 
+2018-06-14 20:32:37,708 - sim_core - INFO - Current time = 1240; Progress = 75% 
+2018-06-14 20:32:38,086 - sim_core - INFO - Current time = 1250; Progress = 76% 
+2018-06-14 20:32:38,447 - sim_core - INFO - Current time = 1260; Progress = 77% 
+2018-06-14 20:32:38,820 - sim_core - INFO - Current time = 1270; Progress = 77% 
+2018-06-14 20:32:39,192 - sim_core - INFO - Current time = 1280; Progress = 78% 
+2018-06-14 20:32:39,565 - sim_core - INFO - Current time = 1290; Progress = 78% 
+2018-06-14 20:32:39,930 - sim_core - INFO - Current time = 1300; Progress = 79% 
+2018-06-14 20:32:40,294 - sim_core - INFO - Current time = 1310; Progress = 80% 
+2018-06-14 20:32:40,673 - sim_core - INFO - Current time = 1320; Progress = 80% 
+2018-06-14 20:32:41,059 - sim_core - INFO - Current time = 1330; Progress = 81% 
+2018-06-14 20:32:41,421 - sim_core - INFO - Current time = 1340; Progress = 82% 
+2018-06-14 20:32:41,784 - sim_core - INFO - Current time = 1350; Progress = 82% 
+2018-06-14 20:32:42,137 - sim_core - INFO - Current time = 1360; Progress = 83% 
+2018-06-14 20:32:42,537 - sim_core - INFO - Current time = 1370; Progress = 83% 
+2018-06-14 20:32:42,891 - sim_core - INFO - Current time = 1380; Progress = 84% 
+2018-06-14 20:32:43,261 - sim_core - INFO - Current time = 1390; Progress = 85% 
+2018-06-14 20:32:43,631 - sim_core - INFO - Current time = 1400; Progress = 85% 
+2018-06-14 20:32:43,993 - sim_core - INFO - Current time = 1410; Progress = 86% 
+2018-06-14 20:32:44,359 - sim_core - INFO - Current time = 1420; Progress = 86% 
+2018-06-14 20:32:44,708 - sim_core - INFO - Current time = 1430; Progress = 87% 
+2018-06-14 20:32:45,056 - sim_core - INFO - Current time = 1440; Progress = 88% 
+2018-06-14 20:32:45,414 - sim_core - INFO - Current time = 1450; Progress = 88% 
+2018-06-14 20:32:45,782 - sim_core - INFO - Current time = 1460; Progress = 89% 
+2018-06-14 20:32:46,221 - sim_core - INFO - Current time = 1470; Progress = 90% 
+2018-06-14 20:32:46,585 - sim_core - INFO - Current time = 1480; Progress = 90% 
+2018-06-14 20:32:46,958 - sim_core - INFO - Current time = 1490; Progress = 91% 
+2018-06-14 20:32:47,327 - sim_core - INFO - Current time = 1500; Progress = 91% 
+2018-06-14 20:32:47,698 - sim_core - INFO - Current time = 1510; Progress = 92% 
+2018-06-14 20:32:48,065 - sim_core - INFO - Current time = 1520; Progress = 93% 
+2018-06-14 20:32:48,434 - sim_core - INFO - Current time = 1530; Progress = 93% 
+2018-06-14 20:32:48,846 - sim_core - INFO - Current time = 1540; Progress = 94% 
+2018-06-14 20:32:49,223 - sim_core - INFO - Current time = 1550; Progress = 94% 
+2018-06-14 20:32:49,588 - sim_core - INFO - Current time = 1560; Progress = 95% 
+2018-06-14 20:32:49,964 - sim_core - INFO - Current time = 1570; Progress = 96% 
+2018-06-14 20:32:50,340 - sim_core - INFO - Current time = 1580; Progress = 96% 
+2018-06-14 20:32:50,716 - sim_core - INFO - Current time = 1590; Progress = 97% 
+2018-06-14 20:32:51,080 - sim_core - INFO - Current time = 1600; Progress = 97% 
+2018-06-14 20:32:51,441 - sim_core - INFO - Current time = 1610; Progress = 98% 
+2018-06-14 20:32:51,824 - sim_core - INFO - Current time = 1620; Progress = 99% 
+2018-06-14 20:32:52,186 - sim_core - INFO - Current time = 1630; Progress = 99% 
+2018-06-14 20:32:52,301 - sim_core - INFO - Main iteration loop finished
+2018-06-14 20:32:52,301 - functions.output - INFO - Simulation finished
+	Average time spent in the algorithm: 35.42 seconds
+2018-06-14 20:32:52,301 - sim_core - INFO - Generating individual graphics
+2018-06-14 20:34:12,104 - sim_core - INFO - Sim_core iteration terminated
+2018-06-14 20:34:12,156 - launchers.launcher_four - INFO - pso algorithm: iteration 1
+	 initial drones positions: _tr
+2018-06-14 20:34:12,156 - launchers.launcher_four - INFO - Calling sim_core
+2018-06-14 20:34:12,157 - sim_core - INFO - Checking input values
+2018-06-14 20:34:12,157 - sim_core - INFO - Creating simulation files
+2018-06-14 20:34:12,157 - functions.output - INFO - Simulation parameters:
+	 Input filename: /home/jesus/Develop/uav_ns/auav/src/scenarios/180614-202806/180614-202811_main.wml
+	 Number of nodes: 200
+	 Duration (seconds): 1633
+	 Number of Drones: 6
+	 Drones max_speed: 15
+	 Initial distribution: corner_top_right
+	 Area dimension: [5000, 5000]
+	 Algorithm: pso
+	 Current iteration: 1
+2018-06-14 20:34:12,157 - sim_core - INFO - Creating simulation objects: drones, nodes and sim_network
+2018-06-14 20:34:12,158 - functions.initialize - INFO - Loading scenario...
+2018-06-14 20:34:16,699 - functions.initialize - INFO - Scenario loaded
+2018-06-14 20:34:16,707 - sim_core - INFO - Starting simulation main loop
+2018-06-14 20:34:16,708 - sim_core - INFO - Current time = 0; Progress = 0% 
+2018-06-14 20:34:16,728 - sim_core - INFO - Current time = 10; Progress = 0% 
+2018-06-14 20:34:16,748 - sim_core - INFO - Current time = 20; Progress = 1% 
+2018-06-14 20:34:16,767 - sim_core - INFO - Current time = 30; Progress = 1% 
+2018-06-14 20:34:16,787 - sim_core - INFO - Current time = 40; Progress = 2% 
+2018-06-14 20:34:16,809 - sim_core - INFO - Current time = 50; Progress = 3% 
+2018-06-14 20:34:16,830 - sim_core - INFO - Current time = 60; Progress = 3% 
+2018-06-14 20:34:16,851 - sim_core - INFO - Current time = 70; Progress = 4% 
+2018-06-14 20:34:16,871 - sim_core - INFO - Current time = 80; Progress = 4% 
+2018-06-14 20:34:16,896 - sim_core - INFO - Current time = 90; Progress = 5% 
+2018-06-14 20:34:16,917 - sim_core - INFO - Current time = 100; Progress = 6% 
+2018-06-14 20:34:16,937 - sim_core - INFO - Current time = 110; Progress = 6% 
+2018-06-14 20:34:16,957 - sim_core - INFO - Current time = 120; Progress = 7% 
+2018-06-14 20:34:16,976 - sim_core - INFO - Current time = 130; Progress = 7% 
+2018-06-14 20:34:17,000 - sim_core - INFO - Current time = 140; Progress = 8% 
+2018-06-14 20:34:17,023 - sim_core - INFO - Current time = 150; Progress = 9% 
+2018-06-14 20:34:17,044 - sim_core - INFO - Current time = 160; Progress = 9% 
+2018-06-14 20:34:17,067 - sim_core - INFO - Current time = 170; Progress = 10% 
+2018-06-14 20:34:17,090 - sim_core - INFO - Current time = 180; Progress = 11% 
+2018-06-14 20:34:17,119 - sim_core - INFO - Current time = 190; Progress = 11% 
+2018-06-14 20:34:17,140 - sim_core - INFO - Current time = 200; Progress = 12% 
+2018-06-14 20:34:17,162 - sim_core - INFO - Current time = 210; Progress = 12% 
+2018-06-14 20:34:17,183 - sim_core - INFO - Current time = 220; Progress = 13% 
+2018-06-14 20:34:17,203 - sim_core - INFO - Current time = 230; Progress = 14% 
+2018-06-14 20:34:17,227 - sim_core - INFO - Current time = 240; Progress = 14% 
+2018-06-14 20:34:17,250 - sim_core - INFO - Current time = 250; Progress = 15% 
+2018-06-14 20:34:17,271 - sim_core - INFO - Current time = 260; Progress = 15% 
+2018-06-14 20:34:17,294 - sim_core - INFO - Current time = 270; Progress = 16% 
+2018-06-14 20:34:17,318 - sim_core - INFO - Current time = 280; Progress = 17% 
+2018-06-14 20:34:17,341 - sim_core - INFO - Current time = 290; Progress = 17% 
+2018-06-14 20:34:17,363 - sim_core - INFO - Current time = 300; Progress = 18% 
+2018-06-14 20:34:17,385 - sim_core - INFO - Current time = 310; Progress = 18% 
+2018-06-14 20:34:17,407 - sim_core - INFO - Current time = 320; Progress = 19% 
+2018-06-14 20:34:17,433 - sim_core - INFO - Current time = 330; Progress = 20% 
+2018-06-14 20:34:17,458 - sim_core - INFO - Current time = 340; Progress = 20% 
+2018-06-14 20:34:17,484 - sim_core - INFO - Current time = 350; Progress = 21% 
+2018-06-14 20:34:17,508 - sim_core - INFO - Current time = 360; Progress = 22% 
+2018-06-14 20:34:17,534 - sim_core - INFO - Current time = 370; Progress = 22% 
+2018-06-14 20:34:17,559 - sim_core - INFO - Current time = 380; Progress = 23% 
+2018-06-14 20:34:17,582 - sim_core - INFO - Current time = 390; Progress = 23% 
+2018-06-14 20:34:17,606 - sim_core - INFO - Current time = 400; Progress = 24% 
+2018-06-14 20:34:17,631 - sim_core - INFO - Current time = 410; Progress = 25% 
+2018-06-14 20:34:17,655 - sim_core - INFO - Current time = 420; Progress = 25% 
+2018-06-14 20:34:17,678 - sim_core - INFO - Current time = 430; Progress = 26% 
+2018-06-14 20:34:17,702 - sim_core - INFO - Current time = 440; Progress = 26% 
+2018-06-14 20:34:17,725 - sim_core - INFO - Current time = 450; Progress = 27% 
+2018-06-14 20:34:17,751 - sim_core - INFO - Current time = 460; Progress = 28% 
+2018-06-14 20:34:17,776 - sim_core - INFO - Current time = 470; Progress = 28% 
+2018-06-14 20:34:17,803 - sim_core - INFO - Current time = 480; Progress = 29% 
+2018-06-14 20:34:17,833 - sim_core - INFO - Current time = 490; Progress = 30% 
+2018-06-14 20:34:17,864 - sim_core - INFO - Current time = 500; Progress = 30% 
+2018-06-14 20:34:17,896 - sim_core - INFO - Current time = 510; Progress = 31% 
+2018-06-14 20:34:17,927 - sim_core - INFO - Current time = 520; Progress = 31% 
+2018-06-14 20:34:17,958 - sim_core - INFO - Current time = 530; Progress = 32% 
+2018-06-14 20:34:17,985 - sim_core - INFO - Current time = 540; Progress = 33% 
+2018-06-14 20:34:18,011 - sim_core - INFO - Current time = 550; Progress = 33% 
+2018-06-14 20:34:18,037 - sim_core - INFO - Current time = 560; Progress = 34% 
+2018-06-14 20:34:18,064 - sim_core - INFO - Current time = 570; Progress = 34% 
+2018-06-14 20:34:18,090 - sim_core - INFO - Current time = 580; Progress = 35% 
+2018-06-14 20:34:18,116 - sim_core - INFO - Current time = 590; Progress = 36% 
+2018-06-14 20:34:18,147 - sim_core - INFO - Current time = 600; Progress = 36% 
+2018-06-14 20:34:18,184 - sim_core - INFO - Current time = 610; Progress = 37% 
+2018-06-14 20:34:18,219 - sim_core - INFO - Current time = 620; Progress = 37% 
+2018-06-14 20:34:18,259 - sim_core - INFO - Current time = 630; Progress = 38% 
+2018-06-14 20:34:18,292 - sim_core - INFO - Current time = 640; Progress = 39% 
+2018-06-14 20:34:18,321 - sim_core - INFO - Current time = 650; Progress = 39% 
+2018-06-14 20:34:18,354 - sim_core - INFO - Current time = 660; Progress = 40% 
+2018-06-14 20:34:18,382 - sim_core - INFO - Current time = 670; Progress = 41% 
+2018-06-14 20:34:18,410 - sim_core - INFO - Current time = 680; Progress = 41% 
+2018-06-14 20:34:18,434 - sim_core - INFO - Current time = 690; Progress = 42% 
+2018-06-14 20:34:18,462 - sim_core - INFO - Current time = 700; Progress = 42% 
+2018-06-14 20:34:18,490 - sim_core - INFO - Current time = 710; Progress = 43% 
+2018-06-14 20:34:18,518 - sim_core - INFO - Current time = 720; Progress = 44% 
+2018-06-14 20:34:18,544 - sim_core - INFO - Current time = 730; Progress = 44% 
+2018-06-14 20:34:18,574 - sim_core - INFO - Current time = 740; Progress = 45% 
+2018-06-14 20:34:18,598 - sim_core - INFO - Current time = 750; Progress = 45% 
+2018-06-14 20:34:18,626 - sim_core - INFO - Current time = 760; Progress = 46% 
+2018-06-14 20:34:18,659 - sim_core - INFO - Current time = 770; Progress = 47% 
+2018-06-14 20:34:18,690 - sim_core - INFO - Current time = 780; Progress = 47% 
+2018-06-14 20:34:18,718 - sim_core - INFO - Current time = 790; Progress = 48% 
+2018-06-14 20:34:18,747 - sim_core - INFO - Current time = 800; Progress = 48% 
+2018-06-14 20:34:18,778 - sim_core - INFO - Current time = 810; Progress = 49% 
+2018-06-14 20:34:18,808 - sim_core - INFO - Current time = 820; Progress = 50% 
+2018-06-14 20:34:18,837 - sim_core - INFO - Current time = 830; Progress = 50% 
+2018-06-14 20:34:18,867 - sim_core - INFO - Current time = 840; Progress = 51% 
+2018-06-14 20:34:18,897 - sim_core - INFO - Current time = 850; Progress = 52% 
+2018-06-14 20:34:18,925 - sim_core - INFO - Current time = 860; Progress = 52% 
+2018-06-14 20:34:18,954 - sim_core - INFO - Current time = 870; Progress = 53% 
+2018-06-14 20:34:18,987 - sim_core - INFO - Current time = 880; Progress = 53% 
+2018-06-14 20:34:19,017 - sim_core - INFO - Current time = 890; Progress = 54% 
+2018-06-14 20:34:19,046 - sim_core - INFO - Current time = 900; Progress = 55% 
+2018-06-14 20:34:19,076 - sim_core - INFO - Current time = 910; Progress = 55% 
+2018-06-14 20:34:19,106 - sim_core - INFO - Current time = 920; Progress = 56% 
+2018-06-14 20:34:19,135 - sim_core - INFO - Current time = 930; Progress = 56% 
+2018-06-14 20:34:19,167 - sim_core - INFO - Current time = 940; Progress = 57% 
+2018-06-14 20:34:19,201 - sim_core - INFO - Current time = 950; Progress = 58% 
+2018-06-14 20:34:19,233 - sim_core - INFO - Current time = 960; Progress = 58% 
+2018-06-14 20:34:19,265 - sim_core - INFO - Current time = 970; Progress = 59% 
+2018-06-14 20:34:19,300 - sim_core - INFO - Current time = 980; Progress = 60% 
+2018-06-14 20:34:19,332 - sim_core - INFO - Current time = 990; Progress = 60% 
+2018-06-14 20:34:19,366 - sim_core - INFO - Current time = 1000; Progress = 61% 
+2018-06-14 20:34:19,401 - sim_core - INFO - Current time = 1010; Progress = 61% 
+2018-06-14 20:34:19,433 - sim_core - INFO - Current time = 1020; Progress = 62% 
+2018-06-14 20:34:19,465 - sim_core - INFO - Current time = 1030; Progress = 63% 
+2018-06-14 20:34:19,500 - sim_core - INFO - Current time = 1040; Progress = 63% 
+2018-06-14 20:34:19,532 - sim_core - INFO - Current time = 1050; Progress = 64% 
+2018-06-14 20:34:19,565 - sim_core - INFO - Current time = 1060; Progress = 64% 
+2018-06-14 20:34:19,600 - sim_core - INFO - Current time = 1070; Progress = 65% 
+2018-06-14 20:34:19,637 - sim_core - INFO - Current time = 1080; Progress = 66% 
+2018-06-14 20:34:19,675 - sim_core - INFO - Current time = 1090; Progress = 66% 
+2018-06-14 20:34:19,718 - sim_core - INFO - Current time = 1100; Progress = 67% 
+2018-06-14 20:34:19,760 - sim_core - INFO - Current time = 1110; Progress = 67% 
+2018-06-14 20:34:19,802 - sim_core - INFO - Current time = 1120; Progress = 68% 
+2018-06-14 20:34:19,845 - sim_core - INFO - Current time = 1130; Progress = 69% 
+2018-06-14 20:34:19,887 - sim_core - INFO - Current time = 1140; Progress = 69% 
+2018-06-14 20:34:19,931 - sim_core - INFO - Current time = 1150; Progress = 70% 
+2018-06-14 20:34:19,972 - sim_core - INFO - Current time = 1160; Progress = 71% 
+2018-06-14 20:34:20,015 - sim_core - INFO - Current time = 1170; Progress = 71% 
+2018-06-14 20:34:20,060 - sim_core - INFO - Current time = 1180; Progress = 72% 
+2018-06-14 20:34:20,104 - sim_core - INFO - Current time = 1190; Progress = 72% 
+2018-06-14 20:34:20,150 - sim_core - INFO - Current time = 1200; Progress = 73% 
+2018-06-14 20:34:20,199 - sim_core - INFO - Current time = 1210; Progress = 74% 
+2018-06-14 20:34:20,250 - sim_core - INFO - Current time = 1220; Progress = 74% 
+2018-06-14 20:34:20,300 - sim_core - INFO - Current time = 1230; Progress = 75% 
+2018-06-14 20:34:20,355 - sim_core - INFO - Current time = 1240; Progress = 75% 
+2018-06-14 20:34:20,406 - sim_core - INFO - Current time = 1250; Progress = 76% 
+2018-06-14 20:34:20,464 - sim_core - INFO - Current time = 1260; Progress = 77% 
+2018-06-14 20:34:20,517 - sim_core - INFO - Current time = 1270; Progress = 77% 
+2018-06-14 20:34:20,571 - sim_core - INFO - Current time = 1280; Progress = 78% 
+2018-06-14 20:34:20,623 - sim_core - INFO - Current time = 1290; Progress = 78% 
+2018-06-14 20:34:20,676 - sim_core - INFO - Current time = 1300; Progress = 79% 
+2018-06-14 20:34:20,726 - sim_core - INFO - Current time = 1310; Progress = 80% 
+2018-06-14 20:34:20,780 - sim_core - INFO - Current time = 1320; Progress = 80% 
+2018-06-14 20:34:20,830 - sim_core - INFO - Current time = 1330; Progress = 81% 
+2018-06-14 20:34:20,881 - sim_core - INFO - Current time = 1340; Progress = 82% 
+2018-06-14 20:34:20,930 - sim_core - INFO - Current time = 1350; Progress = 82% 
+2018-06-14 20:34:20,984 - sim_core - INFO - Current time = 1360; Progress = 83% 
+2018-06-14 20:34:21,033 - sim_core - INFO - Current time = 1370; Progress = 83% 
+2018-06-14 20:34:21,084 - sim_core - INFO - Current time = 1380; Progress = 84% 
+2018-06-14 20:34:21,133 - sim_core - INFO - Current time = 1390; Progress = 85% 
+2018-06-14 20:34:21,185 - sim_core - INFO - Current time = 1400; Progress = 85% 
+2018-06-14 20:34:21,235 - sim_core - INFO - Current time = 1410; Progress = 86% 
+2018-06-14 20:34:21,286 - sim_core - INFO - Current time = 1420; Progress = 86% 
+2018-06-14 20:34:21,335 - sim_core - INFO - Current time = 1430; Progress = 87% 
+2018-06-14 20:34:21,386 - sim_core - INFO - Current time = 1440; Progress = 88% 
+2018-06-14 20:34:21,436 - sim_core - INFO - Current time = 1450; Progress = 88% 
+2018-06-14 20:34:21,491 - sim_core - INFO - Current time = 1460; Progress = 89% 
+2018-06-14 20:34:21,541 - sim_core - INFO - Current time = 1470; Progress = 90% 
+2018-06-14 20:34:21,593 - sim_core - INFO - Current time = 1480; Progress = 90% 
+2018-06-14 20:34:21,643 - sim_core - INFO - Current time = 1490; Progress = 91% 
+2018-06-14 20:34:21,695 - sim_core - INFO - Current time = 1500; Progress = 91% 
+2018-06-14 20:34:21,747 - sim_core - INFO - Current time = 1510; Progress = 92% 
+2018-06-14 20:34:21,800 - sim_core - INFO - Current time = 1520; Progress = 93% 
+2018-06-14 20:34:21,850 - sim_core - INFO - Current time = 1530; Progress = 93% 
+2018-06-14 20:34:21,902 - sim_core - INFO - Current time = 1540; Progress = 94% 
+2018-06-14 20:34:21,951 - sim_core - INFO - Current time = 1550; Progress = 94% 
+2018-06-14 20:34:22,003 - sim_core - INFO - Current time = 1560; Progress = 95% 
+2018-06-14 20:34:22,052 - sim_core - INFO - Current time = 1570; Progress = 96% 
+2018-06-14 20:34:22,103 - sim_core - INFO - Current time = 1580; Progress = 96% 
+2018-06-14 20:34:22,153 - sim_core - INFO - Current time = 1590; Progress = 97% 
+2018-06-14 20:34:22,206 - sim_core - INFO - Current time = 1600; Progress = 97% 
+2018-06-14 20:34:22,255 - sim_core - INFO - Current time = 1610; Progress = 98% 
+2018-06-14 20:34:22,307 - sim_core - INFO - Current time = 1620; Progress = 99% 
+2018-06-14 20:34:22,357 - sim_core - INFO - Current time = 1630; Progress = 99% 
+2018-06-14 20:34:22,372 - sim_core - INFO - Main iteration loop finished
+2018-06-14 20:34:22,372 - functions.output - INFO - Simulation finished
+	Average time spent in the algorithm: 10.22 seconds
+2018-06-14 20:34:22,373 - sim_core - INFO - Generating individual graphics
+2018-06-14 20:34:41,830 - charts.drone_charts - WARNING - AttributeError exception caught: 'EventCollection' object has no attribute '_is_horizontal'
+	scatter plot will be used instead of event plot
+2018-06-14 20:35:16,192 - sim_core - INFO - Sim_core iteration terminated
+2018-06-14 20:35:16,236 - launchers.launcher_four - INFO - Generating average charts for: pso
+2018-06-14 20:36:30,753 - launchers.launcher_four - INFO - Average charts generated for: pso
+2018-06-14 20:36:30,754 - launchers.launcher_four - INFO - All simulations terminated
+2018-06-14 20:36:30,754 - launchers.launcher_four - INFO - Simulation duration: 8 mins 24 secs 
+
+2018-06-14 20:36:30,754 - launchers.launcher_four - INFO - Creating general report file
+2018-06-14 20:36:30,773 - launchers.launcher_four - INFO - General report created
+2018-06-14 20:36:30,773 - launchers.launcher_four - INFO - Everything terminated

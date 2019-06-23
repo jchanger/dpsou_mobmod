@@ -1,0 +1,56 @@
+cluster_1: Scenario_180614-190026
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-190026/180614-190026_0/cluster_1 RandomWaypoint -n 100 -x 1000.0 -y 700.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [200.0, 200.0]
+dimension (max_x,max_y): (1000.0, 700.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1528995626352
+x=1000.0
+y=700.0
+duration=1633.0
+nn=100
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+cluster_2: Scenario_180614-190027
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-190026/180614-190027_1/cluster_2 RandomWaypoint -n 60 -x 700.0 -y 500.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [2000.0, 400.0]
+dimension (max_x,max_y): (700.0, 500.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1528995627704
+x=700.0
+y=500.0
+duration=1633.0
+nn=60
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+

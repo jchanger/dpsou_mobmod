@@ -1,0 +1,73 @@
+PSO values:
+inertia final val: 0.2
+local best final val: 0.2
+global best final val: 0.6
+inertia only time: [0,456]
+lb time: [456,912]
+nb time: [912,1370]
+
+Discovered nodes per time (accumulated) [avg]
+	% discovered (avg): 55.50 %
+	Total discovered (avg): 55.5
+	dev: 44.50
+Discovered nodes per time [avg]
+	inertia max (x,y): (26.0,  44.0)
+	lb max (x,y): (905.0,  42.5)
+	nb max (x,y): (1623.0,  52.5)
+	Mean of discovered per time: 28.2
+Number of nodes connection to UAVs
+	Freq in x=0: 89
+	Max connections events (x axis): 943
+	Max val (x,y): 0.00, 89.00
+	Second max val (x,y): 17.00, 2.00
+	Mean of connections bars: 0.1
+Time between consecutive nodes connections to UAVs
+	Freq in x=1: 27598
+	Freq in x=duration: 90
+	Second max time btw conn (x axis): 757
+	Max val (x,y): 1.00, 27598.00
+	Second max val (x,y): 1633.00, 90.00
+	Mean of time btw conn bars: 17.3
+Drones' final positions [all iterations]
+	Within cluster: 6
+	Within cluster (%): 50.00
+	Out of cluster: 6
+	Out of cluster (%): 50.00
+Time up to discovery [avg]
+	25%: 826.0   dev: 807.0
+	50%: 833.0   dev: 800.0
+	75%: 839.5   dev: 793.5
+	100%: 850.0   dev: 783.0
+	Mean of q-bars: 837.1
+Drone encounters per time [avg]
+	inertia max (x,y): (1.0,  15.0)
+	lb max (x,y): (907.0,  1.5)
+	nb max (x,y): (1632.0,  7.5)
+	Total encounters (avg): 5848.0
+	dev : 5369.00
+	Mean of encounters: 3.6
+Number of drone subgraphs
+	Max val: 6.0   Freq: 1.0
+	Second max: 1.0   Freq: 1.0
+	Total number of drone subgraphs (avg): 3.5
+	dev : 2.5
+	Mean of dr-subgraph bars: 0.3
+Number of drone per subgraphs
+	Max val: 1.0   Freq: 6.0
+	Second max: 6.0   Freq: 1.0
+	Total number of drones per subgraph (avg): 1.7
+	dev : 1.7
+	Mean of drones per subgraph bars: 1.0
+Drones per cluster [avg]
+cluster0: 3.0   dev: 3.0
+	Total clusters: 1
+	Mean of drones per cluster: 3.0
+Convergence time in a cluster [avg]
+	dr0: 1253.5   dev: 378.5
+	dr1: 1286.0   dev: 346.0
+	dr2: 1250.0   dev: 382.0
+	dr3: 1251.0   dev: 381.0
+	dr4: 1260.0   dev: 372.0
+	dr5: 1233.0   dev: 399.0
+	Mean of dr-convergence bars: 1255.6
+	dev: 377.09

@@ -1,0 +1,84 @@
+subscen_1: Scenario_180129-115802
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180129-115802/180129-115802_0/subscen_1 RandomWaypoint -n 100 -x 500 -y 4000 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): (200, 200)
+dimension (max_x,max_y): (500, 4000)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1517223482113
+x=500.0
+y=4000.0
+duration=1633.0
+nn=100
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+subscen_2: Scenario_180129-115803
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180129-115802/180129-115803_1/subscen_2 RandomWaypoint -n 60 -x 500 -y 500 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): (3000, 200)
+dimension (max_x,max_y): (500, 500)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1517223483501
+x=500.0
+y=500.0
+duration=1633.0
+nn=60
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+subscen_3: Scenario_180129-115804
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180129-115802/180129-115804_2/subscen_3 RandomWaypoint -n 40 -x 500 -y 1000 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): (2500, 2500)
+dimension (max_x,max_y): (500, 1000)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1517223484858
+x=500.0
+y=1000.0
+duration=1633.0
+nn=40
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+

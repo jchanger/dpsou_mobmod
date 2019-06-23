@@ -1,0 +1,168 @@
+cluster_1: Scenario_180614-202806
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-202806/180614-202806_0/cluster_1 RandomWaypoint -n 100 -x 1000.0 -y 700.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [200.0, 200.0]
+dimension (max_x,max_y): (1000.0, 700.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1529000886578
+x=1000.0
+y=700.0
+duration=1633.0
+nn=100
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+cluster_2: Scenario_180614-202807
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-202806/180614-202807_1/cluster_2 RandomWaypoint -n 50 -x 700.0 -y 500.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [2000.0, 400.0]
+dimension (max_x,max_y): (700.0, 500.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1529000887963
+x=700.0
+y=500.0
+duration=1633.0
+nn=50
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+cluster_3: Scenario_180614-202808
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-202806/180614-202808_2/cluster_3 RandomWaypoint -n 25 -x 500.0 -y 1000.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [2500.0, 2500.0]
+dimension (max_x,max_y): (500.0, 1000.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1529000888994
+x=500.0
+y=1000.0
+duration=1633.0
+nn=25
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+cluster_4: Scenario_180614-202809
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-202806/180614-202809_3/cluster_4 RandomWaypoint -n 12 -x 500.0 -y 1000.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [50.0, 1500.0]
+dimension (max_x,max_y): (500.0, 1000.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1529000889707
+x=500.0
+y=1000.0
+duration=1633.0
+nn=12
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+cluster_5: Scenario_180614-202810
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-202806/180614-202810_4/cluster_5 RandomWaypoint -n 6 -x 800.0 -y 1000.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [300.0, 3500.0]
+dimension (max_x,max_y): (800.0, 1000.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1529000890261
+x=800.0
+y=1000.0
+duration=1633.0
+nn=6
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+
+cluster_6: Scenario_180614-202810
+---------------------------------
+
+Generation command:
+/home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/bm -f /home/jesus/Develop/uav_ns/bonnmotion/bonnmotion-3.0.1/bin/built_scenarios/180614-202806/180614-202810_5/cluster_6 RandomWaypoint -n 7 -x 1500.0 -y 900.0 -d 1633 -i 3600
+
+Cluster information:
+origin (x,y): [1500.0, 4000.0]
+dimension (max_x,max_y): (1500.0, 900.0)
+
+Parameters:
+model=RandomWaypoint
+ignore=3600.0
+randomSeed=1529000890720
+x=1500.0
+y=900.0
+duration=1633.0
+nn=7
+circular=false
+J=2D
+dim=4
+minspeed=0.5
+maxspeed=1.5
+maxpause=60.0
+
+##################################################################################
+
+

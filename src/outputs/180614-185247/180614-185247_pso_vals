@@ -1,0 +1,74 @@
+PSO values:
+inertia final val: 0.2
+local best final val: 0.2
+global best final val: 0.6
+inertia only time: [0,123]
+lb time: [123,246]
+nb time: [246,370]
+
+Discovered nodes per time (accumulated) [avg]
+	% discovered (avg): 100.00 %
+	Total discovered (avg): 160.0
+	dev: 0.00
+Discovered nodes per time [avg]
+	inertia max (x,y): (42.0,  78.0)
+	lb max (x,y): (187.0,  17.0)
+	nb max (x,y): (369.0,  27.0)
+	Mean of discovered per time: 20.4
+Number of nodes connection to UAVs
+	Freq in x=0: 9
+	Max connections events (x axis): 145
+	Max val (x,y): 33.00, 20.00
+	Second max val (x,y): 31.00, 19.00
+	Mean of connections bars: 0.9
+Time between consecutive nodes connections to UAVs
+	Freq in x=1: 11095
+	Freq in x=duration: 9
+	Second max time btw conn (x axis): 308
+	Max val (x,y): 1.00, 11095.00
+	Second max val (x,y): 2.00, 21.00
+	Mean of time btw conn bars: 30.5
+Drones' final positions [all iterations]
+	Within cluster: 3
+	Within cluster (%): 25.00
+	Out of cluster: 9
+	Out of cluster (%): 75.00
+Time up to discovery [avg]
+	25%: 28.5   dev: 0.5
+	50%: 48.5   dev: 0.5
+	75%: 134.0   dev: 5.0
+	100%: 302.5   dev: 5.5
+	Mean of q-bars: 128.4
+Drone encounters per time [avg]
+	inertia max (x,y): (5.0,  15.0)
+	lb max (x,y): (245.0,  0.0)
+	nb max (x,y): (369.0,  0.0)
+	Total encounters (avg): 367.0
+	dev : 19.00
+	Mean of encounters: 1.0
+Number of drone subgraphs
+	Max val: 6.0   Freq: 2.0
+	Second max: 6.0   Freq: 2.0
+	Total number of drone subgraphs (avg): 6.0
+	dev : 0.0
+	Mean of dr-subgraph bars: 0.3
+Number of drone per subgraphs
+	Max val: 1.0   Freq: 12.0
+	Second max: 1.0   Freq: 12.0
+	Total number of drones per subgraph (avg): 1.0
+	dev : 0.0
+	Mean of drones per subgraph bars: 1.7
+Drones per cluster [avg]
+cluster1: 1.0   dev: 0.0
+	
+	Total clusters: 2
+	Mean of drones per cluster: 0.8
+Convergence time in a cluster [avg]
+	dr0: 369.0   dev: 0.0
+	dr1: 369.0   dev: 0.0
+	dr2: 369.0   dev: 0.0
+	dr3: 366.0   dev: 3.0
+	dr4: 278.5   dev: 2.5
+	dr5: 369.0   dev: 0.0
+	Mean of dr-convergence bars: 353.4
+	dev: 33.56
